@@ -238,7 +238,13 @@
       flex-direction: column;
       justify-content: space-evenly;
       align-items: center;
-      gap: 1px;
+      gap: 5px;
+    }
+
+    .gmailTitle {
+      color: #fbd583;
+      font-size: 20px;
+      font-family: "Plaster", sans-serif;
     }
 
     .contactUs {
