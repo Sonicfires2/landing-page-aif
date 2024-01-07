@@ -1,0 +1,241 @@
+/* flipCard.module.css */
+.flipCard {
+    perspective: 1000px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: hover 1.5s infinite alternate;
+
+    background-color: transparent;
+    margin-left: 10px;
+  }
+
+  .feedback {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    color: #fbd583;
+    font-size: 20px;
+    font-family: "Plaster", sans-serif;
+  }
+
+  .textDecoration {
+    text-decoration: underline;
+  }
+
+  .contactUs {
+    color: #fbd583;
+    font-size: 43px;
+    font-family: "Plaster", sans-serif;
+  }
+
+  .anime {
+    color: #fbd583;
+    font-size: 23px;
+    font-family: 'Audiowide', sans-serif;
+  }
+
+  .gmail {
+    color: #fbd583;
+    font-size: 18px;
+    font-family: 'Audiowide', sans-serif;
+    word-wrap: break-word; /* This will wrap long words onto the next line */
+    overflow-wrap: break-word; /* Similar to word-wrap */
+    word-break: break-word; /* This will break long words to prevent overflow */
+  }
+
+  .insta {
+    color: #fbd583;
+    font-size: 18px;
+    font-family: 'Audiowide', sans-serif;
+    word-wrap: break-word; /* This will wrap long words onto the next line */
+    overflow-wrap: break-word; /* Similar to word-wrap */
+    word-break: break-word; /* This will break long words to prevent overflow */
+  }
+
+  .address {
+    margin-top: 10px;
+    width: 100%;
+    font-size: 16px;
+    color: #fbd583;
+    font-family: 'Audiowide', sans-serif;
+  }
+
+  .gmailTitle {
+    color: #fbd583;
+    font-size: 23px;
+    font-family: "Plaster", sans-serif;
+  }
+
+  .longLine {
+    border: 2px solid #fbd583;
+    width: 100%;
+  }
+  
+  .line {
+    border: 2px solid #fbd583;
+    width: 40%;
+  }
+
+  .lineShort {
+    border: 2px solid #fbd583;
+    width: 30%;
+  }
+
+  .lineShortShort {
+    border: 2px solid #fbd583;
+    width: 24%;
+  }
+  .lineShortShortShort {
+    border: 2px solid #fbd583;
+    width: 22%;
+  }
+  .lineShortShortShortShort {
+    border: 2px solid #fbd583;
+    width: 21%;
+  }
+
+  .lineContainer {
+    width: 100%;
+    height: fit-content;
+
+    display: flex;
+    flex-direction: row;
+    
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  @keyframes hover {
+    from {
+      transform: translateY(-10px);
+    }
+    to {
+      transform: translateY(10px);
+    }
+  }
+  
+  .transparentCard {
+    position: absolute;
+    width: 102%;
+    height: 102%;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.19);
+    backdrop-filter: blur(0.1px);
+    top: -20px;
+    left: -24px;
+    z-index: 10; 
+    pointer-events: none;
+  }
+  
+  .innerBorder {
+    background-color: transparent;
+    border: 2px wheat solid;
+    margin: 10px;
+    border-radius: 5px;
+    width: calc(100% - 20px);
+    height: calc(100% - 20px);
+  }
+  
+  .card {
+    max-width: 600px;
+    max-height: 350px;
+    min-width: 320px;
+    min-height: 160px;
+    width: 65vw;
+    height: 45vh;
+    transform-style: preserve-3d;
+    transition: transform 0.6s;
+    position: relative; /* Needed for proper z-index stacking */
+  }
+  
+  .flipped {
+    transform: rotateY(180deg);
+  }
+  
+  .cardFront,
+  .cardBack {
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background-color: #fbd583;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  .cardFront {
+    /* Front styling */
+    background-color: #f7cd73;
+    z-index: 2;
+    transform: rotateY(0deg);
+  }
+  
+  .cardBack {
+    /* Back styling */
+    background-color: #f5ca6d;
+    transform: rotateY(180deg);
+  }
+  
+.innerCard {
+    width: calc(100% - 10px);
+    height: calc(100% - 10px);
+
+    margin: 5px;
+    background-color: #000;
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 15px;
+}
+
+.innerCardBack {
+    width: calc(100% - 10px);
+    height: calc(100% - 10px);
+
+    margin: 5px;
+    background-color: #000;
+    background-size: cover; /* This ensures that the image covers the whole area */
+    background-position: center; /* This centers the image in the container */
+    background-repeat: no-repeat; /* This will prevent the image from repeating */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 15px;
+}
+
+
+@media (max-width: 800px) {
+    .contactUs {
+        color: #fbd583;
+        font-size: 33px;
+        font-family: "Plaster", sans-serif;
+      }
+    
+      .anime {
+        color: #fbd583;
+        font-size: 19px;
+        font-family: 'Audiowide', sans-serif;
+      }
+    
+      .gmail {
+        margin-top: 8px;
+        color: #fbd583;
+        font-size: 16px;
+        font-family: 'Audiowide', sans-serif;
+      }
+
+      .insta {
+        color: #fbd583;
+        font-size: 16px;
+        font-family: 'Audiowide', sans-serif;
+        word-wrap: break-word; /* This will wrap long words onto the next line */
+        overflow-wrap: break-word; /* Similar to word-wrap */
+        word-break: break-word; /* This will break long words to prevent overflow */
+      }
+}

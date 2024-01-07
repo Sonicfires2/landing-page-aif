@@ -1,0 +1,59 @@
+.tag {
+    background-color: #ddf4f9;
+    border: #ddf4f9;
+    border-radius: 15px;
+    color: #05E0E9;
+
+    width: fit-content;
+    height: fit-content;
+
+    padding: 5px;
+    padding-top: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+} 
+
+.tagRed {
+    background-color: #FABEC0;
+    border: #FABEC0;
+    border-radius: 15px;
+    color: #F85C70;
+
+    width: fit-content;
+    height: fit-content;
+
+    padding: 5px;
+    padding-top: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.tagYellow {
+    background-color: #F9EAC2;
+    border: #F9EAC2;
+    border-radius: 15px;
+    color: #FF8210;
+
+    width: fit-content;
+    height: fit-content;
+
+    padding: 5px;
+    padding-top: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.tagBlack {
+    background-color: rgba(220, 220, 220, 0.332);
+    border: gainsboro;
+    border-radius: 15px;
+    color: rgb(206, 206, 206);
+
+    width: fit-content;
+    height: fit-content;
+
+    padding: 5px;
+    padding-top: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+}

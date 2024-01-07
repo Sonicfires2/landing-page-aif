@@ -1,0 +1,68 @@
+.aboutUs {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(113, 205, 223);
+
+    width: 100%;
+    height: 400px;
+}
+
+.imageContainer {
+    background-color: rgb(113, 205, 223);
+    background-image: url(backgroundAboutUs.png);
+    background-size: contain;
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-position: center;
+
+    width: 50%;
+    height: 100%;
+}
+
+.textContainer {
+    width: 50%;
+    height: 100%;
+    background-color: rgb(113, 205, 223);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+
+    overflow-x: hidden;
+
+    margin-right: 30px;
+}
+
+.aboutUsTitle {
+    font-size: 100px;
+    font-weight: 700px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+@media (max-width: 900px) {
+    .aboutUs {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(113, 205, 223);
+    
+        width: 100%;
+        height: 300px;
+    }
+
+    .aboutUsTitle {
+        font-size: 45px;
+        font-weight: 700px;
+        color: white;
+        font-family: 'Montserrat', sans-serif;
+    }
+}
