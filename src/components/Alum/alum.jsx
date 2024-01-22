@@ -15,9 +15,6 @@ const Alum = () => {
         <ProfileCard name={"Jonathan"} major={"Computer Science, Math"} email={"No contact"}></ProfileCard>     
         <ProfileCard name={"Alexis"} major={"Brain + medical"} email={"No contact"}></ProfileCard>     
         <ProfileCard name={"Rina"} major={"No clue"} email={"No contact"}></ProfileCard>     
-        <ProfileCard name={"Jonathan"} major={"Computer Science, Math"} email={"No contact"}></ProfileCard>     
-        <ProfileCard name={"Jonathan"} major={"Computer Science, Math"} email={"No contact"}></ProfileCard>     
-        <ProfileCard name={"Jonathan"} major={"Computer Science, Math"} email={"No contact"}></ProfileCard>            <ProfileCard name={"Jonathan"} major={"Computer Science, Math"} email={"No contact"}></ProfileCard>     
       </div>
     </div>
   )
