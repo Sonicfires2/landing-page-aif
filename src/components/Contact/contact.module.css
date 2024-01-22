@@ -11,4 +11,5 @@
 
     border: none;
     overflow-x: hidden;
+    overflow-y: hidden;
 }
