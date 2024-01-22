@@ -14,13 +14,18 @@
 
 .containerAlum {
     max-width: 1400px;
+    width: calc(100% - 40px);
+    margin-left: 20px;
+    margin-right: 20px;
     display: flex; /* Aligns children (ProfileCard components) in a row */
+        
     gap: 20px;
 
     overflow-x: scroll; /* Enables horizontal scrolling */
-    -webkit-overflow-scrolling: touch; /* Smooth scrolling on iOS devices */
     scrollbar-width: thin; /* For modern browsers */
     scrollbar-color: #888 #f0f0f0; /* Scrollbar styling for modern browsers */
+
+    touch-action: pan-x;
 }
 
 .containerAlum::-webkit-scrollbar {
@@ -29,8 +34,30 @@
     background: #fff3;
     -webkit-border-radius: 1ex;
 }  
+
 .headings {
     font-size: 100px;
     color: black;
     padding: none;
+}
+
+@media (max-width: 900px) {
+    .headings {
+        font-size: 80px;
+        padding: none;
+    }
+}
+
+@media (max-width: 800px) {
+    .headings {
+        font-size: 70px;
+        padding: none;
+    }
+}
+
+@media (max-width: 660px) {
+    .headings {
+        font-size: 60px;
+        padding: none;
+    }
 }
