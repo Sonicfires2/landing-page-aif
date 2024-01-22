@@ -1,5 +1,5 @@
 # Anime Interest Floor Landing Page
-#[Link to the website](https://sonicfires2.github.io/landing-page-aif/)
+[Link to the website](https://sonicfires2.github.io/landing-page-aif/)
 
 # To update the deployed version
 ```
