@@ -1,5 +1,12 @@
 # Anime Interest Floor Landing Page
-#[Link] https://sonicfires2.github.io/landing-page-aif/
+#[Link to the website](https://sonicfires2.github.io/landing-page-aif/)
+
+# To update the deployed version
+`
+git add .
+git commit -m "your message here"
+npm run deploy
+`
 
 # Getting Started with Create React App
 
