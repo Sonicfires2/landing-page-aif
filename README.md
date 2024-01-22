@@ -4,7 +4,9 @@
 # To update the deployed version
 `
 git add .
+
 git commit -m "your message here"
+
 npm run deploy
 `
 
