@@ -15,11 +15,11 @@ function Image({ title, description }) {
   return (
     <section className={styles.parallaxContainer}>
       <div ref={ref} className={styles.imageContainer}>
-        <img 
-          src={`${title}.png`} 
-          alt={title} 
-          className={styles.image} 
-        />
+      <img 
+        src={`${process.env.PUBLIC_URL}/${title}.png`} 
+        alt={title} 
+        className={styles.image} 
+      />
       </div>
       <motion.h2 style={{ y }} className={styles.imageTitle}>
         <div>
@@ -37,7 +37,11 @@ function ImageMobile({ title, description }) {
   return (
     <section className={styles.parallaxContainer}>
       <div className={styles.imageContainer}>
-        <img src={`${title}.png`} alt={title} className={styles.image} />
+      <img 
+        src={`${process.env.PUBLIC_URL}/${title}.png`} 
+        alt={title} 
+        className={styles.image} 
+      />
       </div>
       <h2 className={styles.imageTitle}>
         <div>
