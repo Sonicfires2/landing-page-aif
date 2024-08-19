@@ -1,0 +1,43 @@
+.leadershipContainer {
+    width: 100vw;
+    min-height: 500px;
+    height: fit-content;
+    max-height: none;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.headings {
+    font-size: 100px;
+    padding: none;
+    margin-top: 50px;
+}
+
+.profileCardContainer {
+    display: grid;
+    margin: 0 auto;
+    grid-template-columns: repeat(3, 1fr); 
+    box-sizing: border-box;
+    justify-items: center; /* Center items horizontally within each grid cell */
+}
+
+@media (max-width: 1150px) {
+    .profileCardContainer {
+        grid-template-columns: repeat(2, 1fr); /* Reduce to 2 columns */
+    }
+}
+
+@media (max-width: 860px) {
+    .headings {
+        font-size: 60px;
+        padding: none;
+    }
+
+    .profileCardContainer {
+        grid-template-columns: 1fr;
+    }
+}

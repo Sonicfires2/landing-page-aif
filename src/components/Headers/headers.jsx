@@ -10,10 +10,6 @@ const Headers = () => {
           AIF
         </span>
         <ul className={styles.headerLinks}>
-          {/* <span>Test1</span>
-          <span>Test2</span>
-          <span>Test1</span>
-          <span>Test1</span> */}
         </ul>
       </nav>
     </div>  
