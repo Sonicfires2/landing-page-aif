@@ -1,4 +1,4 @@
-import { Client } from 'discord.js';
+const { Client } = require('discord.js');
 
 const client = new Client({
     intents: ["GUILDS", "GUILD_MESSAGES"],
@@ -6,10 +6,9 @@ const client = new Client({
 
 client.login(process.env.DISCORD_BOT_TOKEN);
 
-export default async function handler(req, res) {
-    console.log("We in")
+module.exports = async (req, res) => {
     try {
-        const channel = await client.channels.fetch('440330341895372800');
+        const channel = await client.channels.fetch('498196353663500309');
         const messages = await channel.messages.fetch({ limit: 10 });
 
         const messageData = messages.map(msg => ({
@@ -19,6 +18,7 @@ export default async function handler(req, res) {
 
         res.status(200).json(messageData);
     } catch (error) {
+        console.error('Error fetching messages:', error);
         res.status(500).json({ error: 'Failed to fetch messages' });
     }
-}
+};

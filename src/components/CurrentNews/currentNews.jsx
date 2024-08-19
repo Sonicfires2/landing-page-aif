@@ -1,4 +1,3 @@
-import style from './currentNews.module.css'
 import { useEffect, useState } from 'react';
 
 const CurrentNews = () => {
@@ -6,22 +5,11 @@ const CurrentNews = () => {
 
     useEffect(() => {
         fetch('/api/discordMessages')
-            .then(response => {
-                console.log('Response status:', response.status);
-                return response.text();  // Read as text first
-            })
-            .then(text => {
-                console.log('Response text:', text);  // Log the raw text
-                try {
-                    const data = JSON.parse(text);  // Parse the text as JSON
-                    setMessages(data);
-                } catch (error) {
-                    console.error('Error parsing JSON:', error);
-                }
-            })
+            .then(response => response.json())
+            .then(data => setMessages(data))
             .catch(error => console.error('Error fetching messages:', error));
     }, []);
-    
+
     return (
         <div>
             <h2>Discord Channel Messages</h2>
@@ -34,6 +22,6 @@ const CurrentNews = () => {
             </ul>
         </div>
     );
-}
+};
 
 export default CurrentNews;
