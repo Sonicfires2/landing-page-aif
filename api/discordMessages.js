@@ -1,8 +1,10 @@
-const { Client } = require('discord.js');
+const { Client, GatewayIntentBits } = require('discord.js');
 
 const client = new Client({
-    intents: ["GUILDS", "GUILD_MESSAGES"],
+    intents: [GatewayIntentBits.Guilds, GatewayIntentBits.GuildMessages],
 });
+
+client.login(process.env.DISCORD_BOT_TOKEN);
 
 client.login(process.env.DISCORD_BOT_TOKEN);
 
