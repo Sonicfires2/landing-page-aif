@@ -23,7 +23,6 @@ function App() {
       <Value></Value>
       <HousingApplication></HousingApplication>
       <LeadershipContainer></LeadershipContainer>
-      {/* <CurrentNews></CurrentNews> */}
       <Alum></Alum>
       <Contact></Contact>
       <Footer></Footer>
