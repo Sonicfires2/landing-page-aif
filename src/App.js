@@ -10,7 +10,7 @@ import Value from './components/Value/value';
 import Contact from './components/Contact/contact';
 import Footer from './components/Footer/footer';
 import Alum from './components/Alum/alum';
-// import CurrentNews from './components/CurrentNews/currentNews';
+import CurrentNews from './components/CurrentNews/currentNews';
 
 function App() {
   return (
@@ -23,6 +23,7 @@ function App() {
       <Value></Value>
       <HousingApplication></HousingApplication>
       <LeadershipContainer></LeadershipContainer>
+      <CurrentNews></CurrentNews>
       <Alum></Alum>
       <Contact></Contact>
       <Footer></Footer>

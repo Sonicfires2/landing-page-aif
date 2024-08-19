@@ -1,14 +1,28 @@
 import style from './currentNews.module.css'
+import { useEffect, useState } from 'react';
 
 const CurrentNews = () => {
-  return (
-    <div className={style.contactContainer}>
-    <iframe src="https://ccc.rochester.edu/event_details?uid=91dc3b24445c103b83a806fbcac0290b" width="100%" height="600px"></iframe>
+    const [messages, setMessages] = useState([]);
 
-    </div>
-  )
+    useEffect(() => {
+        fetch('api/discordMessages')
+            .then(response => response.json())
+            .then(data => setMessages(data))
+            .catch(error => console.error('Error fetching messages:', error));
+    }, []);
+
+    return (
+        <div>
+            <h2>Discord Channel Messages</h2>
+            <ul>
+                {messages.map((msg, index) => (
+                    <li key={index}>
+                        <strong>{msg.author}:</strong> {msg.content}
+                    </li>
+                ))}
+            </ul>
+        </div>
+    );
 }
-  
+
 export default CurrentNews;
-
-
