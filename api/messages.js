@@ -6,7 +6,10 @@ const { Client, GatewayIntentBits } = require('discord.js');
 const app = express();
 const PORT = process.env.PORT || 5001;
 
-app.use(cors({ origin: 'https://your-gh-pages-site.github.io' }));
+app.use(cors({
+    origin: ['http://localhost:3000', 'https://landing-page-ex13f7r7y-minulos-projects.vercel.app'],
+    credentials: true
+}));
 
 const client = new Client({
     intents: [GatewayIntentBits.Guilds, GatewayIntentBits.GuildMessages, GatewayIntentBits.MessageContent],
