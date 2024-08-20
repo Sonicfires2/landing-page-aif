@@ -1,13 +1,12 @@
-require('dotenv').config({ path: '../.env' });
+require('dotenv').config();
 const express = require('express');
-const cors = require('cors'); // Import cors
+const cors = require('cors');
 const { Client, GatewayIntentBits } = require('discord.js');
 
 const app = express();
 const PORT = process.env.PORT || 5001;
 
-// Enable CORS for all routes, or you can specify origin like this:
-app.use(cors({ origin: 'http://localhost:3000' }));
+app.use(cors({ origin: 'https://your-gh-pages-site.github.io' }));
 
 const client = new Client({
     intents: [GatewayIntentBits.Guilds, GatewayIntentBits.GuildMessages, GatewayIntentBits.MessageContent],
@@ -36,6 +35,4 @@ app.get('/api/messages', async (req, res) => {
     }
 });
 
-app.listen(PORT, () => {
-    console.log(`Server is running on port ${PORT}`);
-});
+module.exports = app;
