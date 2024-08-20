@@ -6,8 +6,8 @@ const { Client, GatewayIntentBits } = require('discord.js');
 const app = express();
 const PORT = process.env.PORT || 5001;
 
-// Enable CORS for all routes, or you can specify origin like this in local:
-// app.use(cors({ origin: 'http://localhost:3000' }));
+// Enable CORS for all routes, or you can specify origin like this:
+app.use(cors({ origin: 'http://localhost:3000' }));
 
 const client = new Client({
     intents: [GatewayIntentBits.Guilds, GatewayIntentBits.GuildMessages, GatewayIntentBits.MessageContent],

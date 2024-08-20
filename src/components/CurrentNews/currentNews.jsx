@@ -6,8 +6,7 @@ const CurrentNews = () => {
     useEffect(() => {
         const fetchMessages = async () => {
             try {
-                // const response = await fetch('http://localhost:5001/api/messages'); // Specify the full URL with port to work in local
-                const response = await fetch('/api/messages');
+                const response = await fetch('http://localhost:5001/api/messages'); // Specify the full URL with port
                 const text = await response.text(); // Read the raw response as text
                 console.log('Raw response:', text); // Log the raw text
                 
