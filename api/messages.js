@@ -27,7 +27,7 @@ app.get('/api/messages', async (req, res) => {
             author: msg.author.tag,
             content: msg.content
         }));
-
+        console.log("res", res);
         res.json(formattedMessages);
     } catch (error) {
         console.error('Error fetching messages:', error);
