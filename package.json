@@ -7,7 +7,6 @@
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
-    "concurrently": "^8.2.2",
     "cors": "^2.8.5",
     "discord.js": "^14.15.3",
     "dotenv": "^16.4.5",
@@ -24,9 +23,7 @@
     "build": "react-scripts build",
     "server": "node api/messages.js",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
@@ -48,7 +45,6 @@
   },
   "devDependencies": {
     "css-loader": "^6.8.1",
-    "gh-pages": "^6.1.1",
     "style-loader": "^3.3.3",
     "typings-for-css-modules-loader": "^1.7.0"
   }
