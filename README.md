@@ -1,6 +1,8 @@
 # Anime Interest Floor Landing Page
 [Link to the website](https://sonicfires2.github.io/landing-page-aif/)
 
+Random changes
+
 # Getting Started 
 0. Make sure you have [Node installed](https://nodejs.org/en/download/). 
 1. Clone the repository.
