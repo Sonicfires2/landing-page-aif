@@ -49,7 +49,7 @@ const leadershipData = [
   {
     name: "Elijah Ferreira",
     role: "Public Relation Manager",
-    remark: "Stop edging me",
+    remark: "What kind of children did they make this game for? Heian Era children?",
     imgLink: "leadersPictures/publicRelationManager.png"
   }
 ];

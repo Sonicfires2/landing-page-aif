@@ -34,3 +34,12 @@ After pushing your changes, deploy the project using:
 ```sh
 npm run deploy
 ```
+
+3. ## In the worst case scenario when npm run deploy doesn't work
+If ```npm run deploy``` doesn't work for some reason, then try these in the master branch:
+```
+npm run build
+git add -f build 
+git commit -m "Deploying to gh-pages"
+git push origin `git subtree split --prefix build master`:gh-pages --force
+``` 
