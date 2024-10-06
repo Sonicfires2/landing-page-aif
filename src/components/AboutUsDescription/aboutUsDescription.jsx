@@ -12,11 +12,15 @@ const AboutUsDescription = () => {
       transition={{ duration: 1.5 }}
     >
       <Helmet>
+        <title>Anime Interest Floor (AIF)</title>
+        <meta name="description" content="Anime Interest Floor (AIF) is a Special Interest Housing group dedicated to fostering a love for anime and promoting cultural inclusivity. AIF welcomes all anime enthusiasts." />
+        <meta name="keywords" content="Anime Interest Floor, AIF, aif, anime community, anime housing, special interest housing, anime culture" />
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Organization",
             "name": "Anime Interest Floor",
+            "alternateName": "AIF",            
             "url": "https://yourwebsite.com",
             "logo": "https://yourwebsite.com/logo.png",
             "description": "Anime Interest Floor is a vibrant community where members immerse themselves in anime culture, gaming, and STEM activities. Join us for gaming nights, anime showings, and anime-con events.",
@@ -28,6 +32,7 @@ const AboutUsDescription = () => {
             "location": {
               "@type": "Place",
               "name": "Anime Interest Floor Dormitory",
+              "alternateName": "AIF",            
               "address": {
                 "@type": "PostalAddress",
                 "streetAddress": "7th Floor, Anderson Tower",
@@ -42,7 +47,7 @@ const AboutUsDescription = () => {
               "@type": "Person",
               "name": "Anime God"
             }],
-            "keywords": ["Anime", "Gaming", "STEM", "Community", "University"],
+            "keywords": ["Anime", "Gaming", "STEM", "Community", "University", "AIF", "aif", "Aif", "Interest Floor"],
             "slogan": "A Living Space Reimagined",
             "events": [
               {
@@ -110,7 +115,7 @@ const AboutUsDescription = () => {
             that share similar interests.
           </section>
           <section>
-            Meet your gamers, programmers, STEM-enjoyer and artists 
+            Meet your gamers, programmers, STEM enjoyers and artists 
             living next door. 
           </section>
           <section>

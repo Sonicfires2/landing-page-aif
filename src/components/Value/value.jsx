@@ -12,11 +12,15 @@ const Value = () => {
       transition={{ duration: 1.5 }}
     >
       <Helmet>
+        <title>Anime Interest Floor</title>
+        <meta name="description" content="Anime Interest Floor (AIF) is a Special Interest Housing group dedicated to fostering a love for anime and promoting cultural inclusivity. AIF welcomes all anime enthusiasts." />
+        <meta name="keywords" content="Anime Interest Floor, AIF, aif, Aif, anime community, anime housing, special interest housing, anime culture, University of Rochester" />
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Organization",
-            "name": "Anime Interest Floor",
+            "name": "Anime Interest Floor (AIF)",
+            "alternateName": "AIF",
             "url": "https://yourwebsite.com",
             "logo": "https://yourwebsite.com/logo.png",
             "description": "Anime Interest Floor is a community that values inclusivity, respect, and open-mindedness. We foster an environment where people from various cultures and backgrounds can meet and grow together.",

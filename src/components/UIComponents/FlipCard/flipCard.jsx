@@ -5,7 +5,7 @@ import style from './flipCard.module.css'; // Assume this is your CSS module fil
 const FlipCard = () => {
   const [isFlipped, setIsFlipped] = useState(false);
 
-  const [copyFeedback, setCopyFeedback] = useState('');
+  const [copyFeedback, setCopyFeedback] = useState('CLICK FOR CONTACT');
 
   const handleFlip = () => {
     setIsFlipped(!isFlipped);
@@ -30,7 +30,7 @@ const FlipCard = () => {
     try {
       await copyToClipboard(text);
       setCopyFeedback(`LINK COPIED!`);
-      setTimeout(() => setCopyFeedback(''), 2000); // Hide feedback after 2 seconds
+      setTimeout(() => setCopyFeedback('CLICK FOR INFO'), 2000); // Hide feedback after 2 seconds
     } catch (err) {
       setCopyFeedback(`Failed to copy`);
     }
