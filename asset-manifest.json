@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/landing-page-aif/static/css/main.6f1e439b.css",
+    "main.css": "/landing-page-aif/static/css/main.9b8335fb.css",
     "main.js": "/landing-page-aif/static/js/main.803c0871.js",
     "static/js/787.d03121ed.chunk.js": "/landing-page-aif/static/js/787.d03121ed.chunk.js",
     "static/media/backgroundAboutUs.png": "/landing-page-aif/static/media/backgroundAboutUs.1e5fa7872b5df51927de.png",
-    "static/media/Untitled1.png": "/landing-page-aif/static/media/Untitled1.7179bc267d1c002c4677.png",
+    "static/media/AIF_Business_Card_Transparent.png": "/landing-page-aif/static/media/AIF_Business_Card_Transparent.e20defc910a7561627fe.png",
     "index.html": "/landing-page-aif/index.html",
-    "main.6f1e439b.css.map": "/landing-page-aif/static/css/main.6f1e439b.css.map",
+    "main.9b8335fb.css.map": "/landing-page-aif/static/css/main.9b8335fb.css.map",
     "main.803c0871.js.map": "/landing-page-aif/static/js/main.803c0871.js.map",
     "787.d03121ed.chunk.js.map": "/landing-page-aif/static/js/787.d03121ed.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6f1e439b.css",
+    "static/css/main.9b8335fb.css",
     "static/js/main.803c0871.js"
   ]
 }
