@@ -1,0 +1,10 @@
+.roomTourContainer {
+    padding-top: 100px;
+    padding-bottom: 120px;
+}
+
+.roomTourVideoContainer {
+    width: 60%;
+    max-width: 800px;
+    min-width: 300px;
+}

@@ -4,9 +4,9 @@
     min-height: 105vh;
     height: 720px;
     z-index: 0;
-    background-color: white;
-    background-image: url(Untitled1.png);
-    background-size: 45%; 
+    background-color: #e3dedb;
+    background-image: url(AIF_Business_Card_Transparent.png);
+    background-size: 80%; 
     background-repeat: no-repeat;
     background-position: center;
     display: flex;
@@ -34,8 +34,8 @@
         height: 720px;
         z-index: 0;
         background-color: white;
-        background-image: url(Untitled1.png);
-        background-size: 60%;
+        background-image: url(AIF_Business_Card_Transparent.png);
+        background-size: 80%;
         background-repeat: no-repeat; /* Prevents the image from repeating */
         background-position: center;
         display: flex;
@@ -52,8 +52,8 @@
         height: 720px;
         z-index: 0;
         background-color: white;
-        background-image: url(Untitled1.png);
-        background-size: 60%;
+        background-image: url(AIF_Business_Card_Transparent.png);
+        background-size: 80%;
         background-repeat: no-repeat; /* Prevents the image from repeating */
         background-position: center;
         display: flex;
@@ -71,8 +71,8 @@
         height: 720px;
         z-index: 0;
         background-color: white;
-        background-image: url(Untitled1.png);
-        background-size: 60%;
+        background-image: url(AIF_Business_Card_Transparent.png);
+        background-size: 80%;
         background-repeat: no-repeat; /* Prevents the image from repeating */
         background-position: center;
         display: flex;
@@ -89,8 +89,8 @@
         height: 720px;
         z-index: 0;
         background-color: white;
-        background-image: url(Untitled1.png);
-        background-size: 60%;
+        background-image: url(AIF_Business_Card_Transparent.png);
+        background-size: 80%;
         background-repeat: no-repeat; /* Prevents the image from repeating */
         background-position: center;
         display: flex;
@@ -107,8 +107,8 @@
         height: 720px;
         z-index: 0;
         background-color: white;
-        background-image: url(Untitled1.png);
-        background-size: 60%;
+        background-image: url(AIF_Business_Card_Transparent.png);
+        background-size: 80%;
         background-repeat: no-repeat; /* Prevents the image from repeating */
         background-position: center;
         display: flex;
@@ -125,7 +125,7 @@
         height: 720px;
         z-index: 0;
         background-color: white;
-        background-image: url(Untitled1.png);
+        background-image: url(AIF_Business_Card_Transparent.png);
         background-size: 60%;
         background-repeat: no-repeat; /* Prevents the image from repeating */
         background-position: center;

@@ -10,6 +10,7 @@ import Value from './components/Value/value';
 import Contact from './components/Contact/contact';
 import Footer from './components/Footer/footer';
 import Alum from './components/Alum/alum';
+import RoomTour from './components/RoomTour/RoomTour';
 // import CurrentNews from './components/CurrentNews/currentNews';
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
       <Intro></Intro>
       <AboutUs></AboutUs>
       <AboutUsDescription></AboutUsDescription>
+      {/* <RoomTour></RoomTour> */}
       <Leader></Leader>
       <Value></Value>
       <HousingApplication></HousingApplication>
