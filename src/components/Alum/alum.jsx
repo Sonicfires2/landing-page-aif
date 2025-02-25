@@ -21,6 +21,7 @@ const Alum = () => {
         <ProfileCard name={"Alexis"} major={"Brain + medical"} email={"No contact"}></ProfileCard>     
         <ProfileCard name={"Rina"} major={"No clue"} email={"No contact"}></ProfileCard>     
         <ProfileCard name={"Minh"} major={"Computer Science"} email={"mnguy31@u.rochester.edu"}></ProfileCard>     
+        <ProfileCard name={"Patrick"} major={"Molecular genetics and psychology"} email={"poseidon9873 (discord)"} ></ProfileCard>
       </div>
     </motion.div>
   )

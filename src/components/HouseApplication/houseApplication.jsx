@@ -31,9 +31,17 @@ const HousingApplication = () => {
         </script>
       </Helmet>
 
-      <div className={style.container}>
+      <div className={style.container}
+        onClick={() => { window.location.href = 'https://docs.google.com/forms/d/e/1FAIpQLSd9qAUowE-9A-oPg6C3xWD1VmqRJ6m2Rp4BG_dHmU2BOL7Nlw/viewform?usp=send_form'; }}
+        style={{cursor:'pointer'}}
+      >
         <ParallaxText baseVelocity={-4}>HOUSING APPLICATION</ParallaxText>
         <ParallaxText baseVelocity={4}>WE ARE OPEN!</ParallaxText>
+        <ParallaxText 
+          baseVelocity={4}   
+        >
+          ClICK TO APPLY!
+        </ParallaxText>
         <ParallaxText baseVelocity={-4}>HOUSING APPLICATION</ParallaxText>
       </div>
     </div>

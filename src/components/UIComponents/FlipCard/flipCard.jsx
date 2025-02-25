@@ -88,10 +88,10 @@ const FlipCard = () => {
                 https://www.instagram.com/uranimeinterestfloor/
               </div>
             </div>
-            <div className={style.insta} onClick={() => handleCopyClick('https://discord.gg/mFRFgnJqgN')}>
-              <div className={style.gmailTitle}>DISCORD</div>
+            <div className={style.insta} onClick={() => handleCopyClick('https://linktr.ee/animeinterestfloor?lt_utm_source=lt_share_link#327583158')}>
+              <div className={style.gmailTitle}>LINK TREE</div>
               <div className={style.textDecoration}>
-                https://discord.gg/HHUt5qBSx7
+              https://linktr.ee/animeinterestfloor?lt_utm_source=lt_share_link#327583158
               </div>
             </div>
             <div className={style.insta} onClick={() => handleCopyClick('https://www.tiktok.com/@ur_aif')}>

@@ -29,15 +29,21 @@ const leadershipData = [
     imgLink: "leadersPictures/treasurer.png"
   },
   {
-    name: "Taylor Klein",
-    role: "Secretary",
+    name: "Taylor Klein",    
+    role: "Honorary Secretary",
     remark: "Wait I need a quote?",
-    imgLink: "leadersPictures/secretary.jpg"
+    imgLink: "leadersPictures/falseSecretary.jpg"
   },
   {
-    name: "Sunny Wu",
+    name: "Adrian Kong",
+    role: "Secretary",
+    remark: "Free Bloodborne?",
+    imgLink: "leadersPictures/secretary.png"
+  },
+  {
+    name: "Lucas Dessein",
     role: "Librarian",
-    remark: "You got me!",
+    remark: "Remember to smile!",
     imgLink: "leadersPictures/librarian.jpg"
   },
   {
