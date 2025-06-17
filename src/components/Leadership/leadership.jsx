@@ -37,7 +37,7 @@ const leadershipData = [
   {
     name: "Adrian Kong",
     role: "Secretary",
-    remark: "Free Bloodborne?",
+    remark: "Overconfidence is a slow and insidious killer.",
     imgLink: "leadersPictures/secretary.png"
   },
   {
