@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/landing-page-aif/static/css/main.e4da3017.css",
-    "main.js": "/landing-page-aif/static/js/main.c060c871.js",
+    "main.js": "/landing-page-aif/static/js/main.c0ff1145.js",
     "static/js/787.d03121ed.chunk.js": "/landing-page-aif/static/js/787.d03121ed.chunk.js",
     "static/media/backgroundAboutUs.png": "/landing-page-aif/static/media/backgroundAboutUs.1e5fa7872b5df51927de.png",
     "static/media/AIF_Business_Card_Transparent.png": "/landing-page-aif/static/media/AIF_Business_Card_Transparent.e20defc910a7561627fe.png",
     "index.html": "/landing-page-aif/index.html",
     "main.e4da3017.css.map": "/landing-page-aif/static/css/main.e4da3017.css.map",
-    "main.c060c871.js.map": "/landing-page-aif/static/js/main.c060c871.js.map",
+    "main.c0ff1145.js.map": "/landing-page-aif/static/js/main.c0ff1145.js.map",
     "787.d03121ed.chunk.js.map": "/landing-page-aif/static/js/787.d03121ed.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e4da3017.css",
-    "static/js/main.c060c871.js"
+    "static/js/main.c0ff1145.js"
   ]
 }
