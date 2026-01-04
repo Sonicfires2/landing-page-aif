@@ -3,6 +3,26 @@ import style from './houseApplication.module.css';
 import ParallaxText from '../UIComponents/ParralaxTextSideWay/parralaxText';
 import { Helmet } from 'react-helmet';
 
+const APPLY_URL =
+  "https://docs.google.com/forms/d/e/1FAIpQLSd9qAUowE-9A-oPg6C3xWD1VmqRJ6m2Rp4BG_dHmU2BOL7Nlw/viewform?usp=send_form";
+
+function goToApply() {
+  window.location.assign(APPLY_URL);
+}
+
+function onKeyActivate(e) {
+  // Enter should activate links
+  if (e.key === "Enter") {
+    e.preventDefault();
+    goToApply();
+  }
+  // Space is not standard for links, but many teams support it for div-based "clickables"
+  if (e.key === " ") {
+    e.preventDefault();
+    goToApply();
+  }
+}
+
 const HousingApplication = () => {
   return (
     <div id={style.housingInfo}> 
@@ -31,12 +51,24 @@ const HousingApplication = () => {
         </script>
       </Helmet>
 
-      <div className={style.container}
-        onClick={() => { window.location.href = 'https://docs.google.com/forms/d/e/1FAIpQLSd9qAUowE-9A-oPg6C3xWD1VmqRJ6m2Rp4BG_dHmU2BOL7Nlw/viewform?usp=send_form'; }}
-        style={{cursor:'pointer'}}
+      <div
+        className={style.container}
+        role="link"
+        tabIndex={0}
+        aria-label="Housing application (opens form)"
+        onClick={goToApply}
+        onKeyDown={onKeyActivate}
       >
-        <ParallaxText baseVelocity={-4}>HOUSING APPLICATION</ParallaxText>
-        <ParallaxText baseVelocity={4}>WE ARE OPEN!</ParallaxText>
+        <ParallaxText 
+          baseVelocity={-4}
+        >
+          HOUSING APPLICATION
+        </ParallaxText>
+        <ParallaxText 
+          baseVelocity={4}
+        >
+          WE ARE OPEN!
+        </ParallaxText>
         <ParallaxText 
           baseVelocity={4}   
         >

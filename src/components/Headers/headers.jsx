@@ -31,9 +31,13 @@ const Headers = () => {
   return (
     <div className={styles.headers}>
       <nav className={styles.headersContainer}>
-        <span className={styles.title}>
-          AIF
-        </span>
+        <h6 className={styles.title}
+          role="logo"
+          aria-label="Anime Interest Floor Home Page Logo"
+          tabIndex={0}
+        >
+          AIF            
+        </h6>
         <ul className={styles.headerLinks}>
         </ul>
       </nav>

@@ -43,26 +43,41 @@ const Value = () => {
 
       <div className={style.aboutUsDescription}>
         <Tag content={"about-us"} color={"yellow"}></Tag>
-        <h1 className={style.headings}>OUR VALUE.<br></br>Respect.</h1>
-        <p className={style.paragraphPC}>
-          <section>
+        <h1 
+          className={style.headings}
+          tabIndex={0}
+        >
+          OUR VALUE.<br></br>Respect.
+        </h1>
+        <div 
+          className={style.paragraphPC}
+          tabIndex={0}
+          aria-label='Paragraphs describing the Anime Interest Floor Value'
+        >
+          <p
+            tabIndex={0}
+          >
             Enjoy meeting people from various cultures and backgrounds.
-          </section>
-          <section>
+          </p>
+          <p
+            tabIndex={0}
+          >
             We foster an environment that focuses on open-mindedness. 
-          </section>
-          <section>
+          </p>
+          <p
+            tabIndex={0}
+          >
             We promote a culture of inclusivity and respect. 
-          </section>
-        </p>
+          </p>
+        </div>
 
-        <p className={style.paragraphMobile}>
-          <section>
+        <div className={style.paragraphMobile}>
+          <p>
             Enjoy meeting people from various cultures and backgrounds.
             We foster an environment that focuses on open-mindedness. 
             We promote a culture of inclusivity and respect. 
-          </section>
-        </p>
+          </p>
+        </div>
       </div>
     </motion.div>
   )

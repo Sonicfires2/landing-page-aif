@@ -20,12 +20,22 @@ function Image({ title, description, altText }) {
           src={`${process.env.PUBLIC_URL}/images/${title}.png`} 
           className={styles.image} 
           alt={altText}
+          tabIndex={0}
+          aria-label={"Image of the " + title + " event."}
         />
       </div>
       <motion.h2 style={{ y }} className={styles.imageTitle}>
         <div>
-          {title}
-          <p className={styles.paragraph}>
+          <h5
+            aria-label={"Title of " + title}
+            tabIndex={0}
+          >
+            {title}
+          </h5>
+          <p 
+            className={styles.paragraph}
+            tabIndex={0}
+          >
             {description}
           </p>
         </div>
@@ -42,12 +52,22 @@ function ImageMobile({ title, description, altText }) {
           src={`${process.env.PUBLIC_URL}/images/${title}.png`} 
           className={styles.image} 
           alt={altText}
+          tabIndex={0}
         />
       </div>
       <h2 className={styles.imageTitle}>
         <div>
-          {title}
-          <p className={styles.paragraph}>
+          <h5
+            role="title"
+            aria-label={"Title of " + title}
+            tabIndex={0}
+          >
+            {title}
+          </h5>
+          <p 
+            className={styles.paragraph}
+            tabIndex={0}
+          >
             {description}
           </p>
         </div>
@@ -161,7 +181,11 @@ function Leader() {
         whileInView={{ opacity: 1, when: "center", x: 0}}
         transition={{ duration: 1.5 }}
       >
-        <h1 className={styles.title}>
+        <h1 className={styles.title}
+          tabIndex={0}
+          aria-label='Our Activity Section Label'
+          role="title"
+        >
           OUR ACTIVITY. 
         </h1>
       </motion.div>

@@ -15,14 +15,35 @@ const ProfileCard = ({ name, role, remark, imgLink }) => {
       className={style.profileCard}
       onMouseEnter={() => setHovered(true)}
       onMouseLeave={() => setHovered(false)}
+      tabIndex={0}
+      aria-label={'The card for the ' + role + " leadership position"}
     >
       <div className={style.imageContainer}>
-        <img src={displayImage} alt={name} />
+        <img 
+          src={displayImage} 
+          alt={name} 
+        />
       </div>
       <div className={style.leaderTextContainer}>
-        <div className={style.ProfileSection}><b>{name}</b></div>
-        <div className={style.ProfileSection}>{role}</div>
-        <div className={style.ProfileSection}>"{remark}"</div>
+        <div className={style.ProfileSection}>
+          <b 
+            tabIndex={0}
+            aria-label={'name is ' + name}
+          >
+              {name}
+          </b>
+        </div>
+        <div 
+          className={style.ProfileSection} 
+          tabIndex={0}
+        >
+          {role}
+        </div>
+        <div 
+          className={style.ProfileSection}
+          tabIndex={0}
+          aria-label={"This is a quote from that person: " + remark}
+        >"{remark}"</div>
       </div>
     </div>
   );

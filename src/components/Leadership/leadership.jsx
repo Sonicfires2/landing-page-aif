@@ -62,9 +62,18 @@ const leadershipData = [
 
 const LeadershipContainer = () => {
   return (
-    <section className={style.leadershipContainer}>
+    <section 
+      className={style.leadershipContainer}
+      tabIndex={0}
+      aria-label='The Leadership Section'
+    >
       <Tag content={"Our-Team"} color={"yellow"} />
-      <h1 className={style.headings}>OUR TEAM.<br />Talented.</h1>
+      <h1 
+        className={style.headings}
+        tabIndex={0}
+      >
+        OUR TEAM.<br />Talented.
+      </h1>
       <div className={style.profileCardContainer}>
         {leadershipData.map((leader, index) => (
           <ProfileCard

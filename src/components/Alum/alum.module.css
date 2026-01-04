@@ -12,21 +12,40 @@
     padding-bottom: 80px;
 }
 
+.skipLink {
+  position: absolute;
+  left: -9999px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+.skipLink:focus,
+.skipLink:focus-visible {
+  position: static;
+  width: auto;
+  height: auto;
+  padding: 8px 12px;
+  display: inline-block;
+  outline: 2px solid currentColor;
+  outline-offset: 2px;
+}
+
 .containerAlum {
     max-width: 1400px;
     width: calc(100% - 40px);
     margin-left: 20px;
     margin-right: 20px;
     display: flex; /* Aligns children (ProfileCard components) in a row */
-        
+    flex-wrap: wrap;
+    justify-content: center;
     gap: 10px;
-
-    overflow-x: scroll; /* Enables horizontal scrolling */
-    touch-action: pan-x;
 }
+
 .containerAlum::-webkit-scrollbar {
     height: 8px; /* Height of the horizontal scrollbar */
-    background-color: transparent !important;
+    background-color: transparent !important;    
 }
 
 .containerAlum::-webkit-scrollbar-thumb {

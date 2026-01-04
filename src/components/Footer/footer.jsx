@@ -29,13 +29,13 @@ const Footer = () => {
   </Helmet>
 
   return (
-    <div className={style.footer}>
+    <div className={style.footer} tabIndex={0} aria-label='Credit to the creator of the website'>
       <div className={style.footerContainer}>
-        <div className={style.credit}>
+        <div className={style.credit} tabIndex={0}>
           Programmed and designed by Minh Nguyen   
         </div>
-        <div className={style.credit}>
-          © 2024 Anime Interest Floor
+        <div className={style.credit} tabIndex={0}>
+          © 2026 Anime Interest Floor
         </div>
       </div>
     </div>

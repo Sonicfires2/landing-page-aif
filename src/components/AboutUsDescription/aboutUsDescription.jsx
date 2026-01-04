@@ -107,32 +107,55 @@ const AboutUsDescription = () => {
       </Helmet>
 
       <div className={style.aboutUsDescription}>
-        <Tag content={"about-us"}></Tag>
-        <h1 className={style.headings}>A Living Space.<br></br>Reimagined.</h1>
-        <p className={style.paragraphPC}>
-          <section>
+        <Tag 
+          content={"about-us"}
+        >
+        </Tag>
+        <h1 
+          className={style.headings}
+          tabIndex={0}
+          aria-label='About us section title: A living space reimaged'
+        >
+          A Living Space.<br></br>Reimagined.
+        </h1>
+        <p 
+          className={style.paragraphPC}
+          tabIndex={0}
+          aria-label='Paragraphs of the about us section'
+        >
+          <p
+            tabIndex={0}
+          >
             Immerse, explore and enjoy Anime with a community 
             that share similar interests.
-          </section>
-          <section>
+          </p>
+          <p
+            tabIndex={0}
+          >
             Meet your gamers, programmers, STEM enjoyers and artists 
             living next door. 
-          </section>
-          <section>
+          </p>
+          <p
+            tabIndex={0}
+          >
             Come join us in our gaming nights, anime showing and 
             anime-con. 
-          </section>
+          </p>
         </p>
 
-        <p className={style.paragraphMobile}>
-          <section>
+        <p className={style.paragraphMobile}
+          tabIndex={0}
+        >
+          <p
+            tabIndex={0}
+          >
             Immerse, explore and enjoy Anime with a community 
-            that share similar interests.
+            that share similar interests. <br></br>
             Meet your gamers, programmers, STEM-enjoyer and artists 
-            living next door. 
+            living next door. <br></br>
             Come join us in our gaming nights, anime showing and 
             anime-con. 
-          </section>
+          </p>
         </p>
       </div>
     </motion.div>
