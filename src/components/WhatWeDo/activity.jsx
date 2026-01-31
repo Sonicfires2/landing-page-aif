@@ -17,7 +17,7 @@ function Image({ title, description, altText }) {
     <section className={styles.parallaxContainer}>
       <div ref={ref} className={styles.imageContainer}>
         <img 
-          src={`${process.env.PUBLIC_URL}/images/${title}.png`} 
+          src={`${process.env.PUBLIC_URL}/images/${title}.jpg`} 
           className={styles.image} 
           alt={altText}
           tabIndex={0}
@@ -49,7 +49,7 @@ function ImageMobile({ title, description, altText }) {
     <section className={styles.parallaxContainer}>
       <div className={styles.imageContainer}>
         <img 
-          src={`${process.env.PUBLIC_URL}/images/${title}.png`} 
+          src={`${process.env.PUBLIC_URL}/images/${title}.jpg`} 
           className={styles.image} 
           alt={altText}
           tabIndex={0}
@@ -79,8 +79,8 @@ function ImageMobile({ title, description, altText }) {
 function Leader() {
   const [eventInfo, setEventInfo] = useState([
     {
-      title: "TORA CON",
-      description: "Experience a thrilling world of anime culture!",
+      title: "FLOOR-MEMBER FRIDAYS",
+      description: "Exclusive fun events every Friday, hosted by floor members, for floor members!",
       altText: "Anime Convention at Rochester Institution of Technology",
       startDate: "2024-09-25T19:00",
       location: {
@@ -90,13 +90,13 @@ function Leader() {
         postalCode: "14623",
         addressCountry: "US"
       },
-      image: `${process.env.PUBLIC_URL}/TORA_CON.png`,
+      image: `${process.env.PUBLIC_URL}/FLOOR-MEMBER FRIDAYS.png`,
       price: "Free if you volunteer",
       priceCurrency: "USD"
     },
     {
-      title: "ANIME SHOWING",
-      description: "Every Saturday 6 PM to 8:30 PM at Morey 321 :D",
+      title: "BI-WEEKLY EVENTS",
+      description: "Every other Saturday 6 PM at Douglass 401 :D",
       altText: "Weekly anime showing to serve the UofR community.",
       startDate: "2024-09-30T18:00",
       location: {
@@ -106,13 +106,13 @@ function Leader() {
         postalCode: "14627",
         addressCountry: "US"
       },
-      image: `${process.env.PUBLIC_URL}/ANIME_SHOWING.png`,
+      image: `${process.env.PUBLIC_URL}/BI-WEEKLY EVENTS.jpg`,
       price: "Free",
       priceCurrency: "USD"
     },
     {
-      title: "SAITAMAGO",
-      description: "The Easter Egg Hunt revamped!",
+      title: "A WELCOMING COMMUNITY",
+      description: "Join us to meet awesome people and experience lots of fun activities!",
       altText: "The Anime Interest Floor's own take on Easter holiday!",
       startDate: "2024-04-12T10:00",
       location: {
@@ -122,7 +122,7 @@ function Leader() {
         postalCode: "14623",
         addressCountry: "US"
       },
-      image: `${process.env.PUBLIC_URL}/SAITAMAGO.png`,
+      image: `${process.env.PUBLIC_URL}/A WELCOMING COMMUNITY.png`,
       price: "Free",
       priceCurrency: "USD"
     }

@@ -39,7 +39,6 @@ const Alum = () => {
         <ProfileCard name={"Elijah Ferreira"} major={"Biology"} email={"https://twitter.com/bomberbossart"} extraDetails={"Sonic fan"}></ProfileCard>
         <ProfileCard name={"Hisashi Lonske"} major={"Mechanical Engineering"} email={"Waiting for bro's work email"} extraDetails={"Bro printed out money from air"}></ProfileCard>
         <ProfileCard name={"Alex Rao"} major={"Optics, Physics"} email={"Idk, try LinkedIn"} extraDetails={"Arknight Enthusiast"}></ProfileCard>
-        <ProfileCard name={"Adrian Kong"} major={"CS, DMS"} email={"akong3@u.rochester.edu"} extraDetails={"This website second developer"}></ProfileCard>
       </div>
 
       <div id="after-alumni" tabIndex={-1} />

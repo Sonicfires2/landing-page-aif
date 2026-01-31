@@ -5,58 +5,46 @@ import ProfileCard from './Profile/profileCard';
 
 const leadershipData = [
   {
-    name: "Louise Ziegler",
-    role: "President",
-    remark: "Eboard meeting in 10 minutes - be there or be square",
-    imgLink: "leadersPictures/president.png"
-  },
-  {
-    name: "Andrey Kharlamov",
-    role: "Vice President",
-    remark: "Tatakae",
-    imgLink: "leadersPictures/vicePresident.jpg"
-  },
-  {
     name: "Lily Cizewski",
+    role: "President",
+    // remark: "Eboard meeting in 10 minutes - be there or be square",
+    imgLink: "leadersPictures/web_lily.png"
+  },
+  {
+    name: "Lila Voytek",
+    role: "Vice President",
+    // remark: "Tatakae",
+    imgLink: "leadersPictures/kirby_sleep.jpg"
+  },
+  {
+    name: "Audrey Jung",
     role: "Housing Manager",
-    remark: "Hey, I didn't say this",
-    imgLink: "leadersPictures/housingManager.png"
+    // remark: "Hey, I didn't say this",
+    imgLink: "leadersPictures/kirby_sleep.jpg"
   },
   {
-    name: "Hisashi Lonske",
+    name: "Tate Lee",
     role: "Treasurer",
-    remark: "Skimming isn't stealing; it's just taking what's owed",
-    imgLink: "leadersPictures/treasurer.png"
-  },
-  {
-    name: "Taylor Klein",    
-    role: "Honorary Secretary",
-    remark: "Wait I need a quote?",
-    imgLink: "leadersPictures/falseSecretary.jpg"
+    // remark: "Skimming isn't stealing; it's just taking what's owed",
+    imgLink: "leadersPictures/web_tate.jpg"
   },
   {
     name: "Adrian Kong",
-    role: "Secretary",
-    remark: "Free Bloodborne?",
-    imgLink: "leadersPictures/secretary.png"
+    role: "Secretary/Web Manager",
+    // remark: "Free Bloodborne",
+    imgLink: "leadersPictures/kirby_sleep.jpg"
   },
   {
-    name: "Lucas Dessein",
+    name: "Michael Bass",
     role: "Librarian",
-    remark: "Remember to smile!",
-    imgLink: "leadersPictures/librarian.jpg"
+    // remark: "Remember to smile!",
+    imgLink: "leadersPictures/kirby_sleep.jpg"
   },
   {
-    name: "Minh Nguyen",
-    role: "Web Manger",
-    remark: "Lorem ipsum dolor...",
-    imgLink: "leadersPictures/webManager.jpeg"
-  },
-  {
-    name: "Elijah Ferreira",
+    name: "Saskia Erasmus",
     role: "Public Relation Manager",
-    remark: "What kind of children did they make this game for? Heian Era children?",
-    imgLink: "leadersPictures/publicRelationManager.png"
+    // remark: "What kind of children did they make this game for? Heian Era children?",
+    imgLink: "leadersPictures/web_saskia.jpg"
   }
 ];
 
