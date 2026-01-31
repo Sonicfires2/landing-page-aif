@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/landing-page-aif/static/css/main.79edf3b9.css",
-    "main.js": "/landing-page-aif/static/js/main.34ca3474.js",
+    "main.css": "/landing-page-aif/static/css/main.814598e3.css",
+    "main.js": "/landing-page-aif/static/js/main.fb5d6d8d.js",
     "static/js/787.d03121ed.chunk.js": "/landing-page-aif/static/js/787.d03121ed.chunk.js",
-    "static/media/backgroundAboutUs.png": "/landing-page-aif/static/media/backgroundAboutUs.1e5fa7872b5df51927de.png",
+    "static/media/AIFlogo2025.png": "/landing-page-aif/static/media/AIFlogo2025.d801c86c6569d6c3764e.png",
     "static/media/AIF_Business_Card_Transparent.png": "/landing-page-aif/static/media/AIF_Business_Card_Transparent.e20defc910a7561627fe.png",
     "index.html": "/landing-page-aif/index.html",
-    "main.79edf3b9.css.map": "/landing-page-aif/static/css/main.79edf3b9.css.map",
-    "main.34ca3474.js.map": "/landing-page-aif/static/js/main.34ca3474.js.map",
+    "main.814598e3.css.map": "/landing-page-aif/static/css/main.814598e3.css.map",
+    "main.fb5d6d8d.js.map": "/landing-page-aif/static/js/main.fb5d6d8d.js.map",
     "787.d03121ed.chunk.js.map": "/landing-page-aif/static/js/787.d03121ed.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.79edf3b9.css",
-    "static/js/main.34ca3474.js"
+    "static/css/main.814598e3.css",
+    "static/js/main.fb5d6d8d.js"
   ]
 }
