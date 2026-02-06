@@ -127,19 +127,18 @@ const AboutUsDescription = () => {
             tabIndex={0}
           >
             Immerse, explore and enjoy Anime with a community 
-            that share similar interests.
+            that shares similar interests.
           </p>
           <p
             tabIndex={0}
           >
-            Meet your gamers, programmers, STEM enjoyers and artists 
+            Meet board game enthusiasts, programmers, STEM enjoyers, Japanese language learners, and artists 
             living next door. 
           </p>
           <p
             tabIndex={0}
           >
-            Come join us in our gaming nights, anime showing and 
-            anime-con. 
+            Come join us in our gaming nights, karaoke nights, and other anime-themed events. 
           </p>
         </p>
 

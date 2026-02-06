@@ -4,7 +4,7 @@ import ParallaxText from '../UIComponents/ParralaxTextSideWay/parralaxText';
 import { Helmet } from 'react-helmet';
 
 const APPLY_URL =
-  "https://docs.google.com/forms/d/e/1FAIpQLSd9qAUowE-9A-oPg6C3xWD1VmqRJ6m2Rp4BG_dHmU2BOL7Nlw/viewform?usp=send_form";
+  "https://forms.gle/NHzDSWm2AuNMHzVA8";
 
 function goToApply() {
   window.location.assign(APPLY_URL);
